@@ -1,7 +1,7 @@
 ##  Function 'makeCacheMatrix' parallels the function
 ##  'makeVector' of assignment 2.
 ##
-## makeCacheMatrix() takes a matrix argument, and
+## makeCacheMatrix(x) takes a matrix argument, and
 ##  returns a list of 4 function:
 ##
 ##  Functions: 
