@@ -28,10 +28,12 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
  
-## Function cachesolve() parallels the function 'cachemean',
+## Function 'cacheSolve' parallels the function 'cachemean',
 ##   given in assignment 2.
 ##
-## cachesolve(x) calculates the inverse of the 'special'
+## cacheSolve take as argument, the output of function makeCacheMatrix.
+## 
+## cacheSolve(x) calculates the inverse of the 'special'
 ##   matrix created in the 'makeCacheMatrix' function above.
 ##   It returns the value of the inverse matrix.
 ##
@@ -42,7 +44,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## Otherwise it calculates the inverse and sets the inverse
 ##   into the cache using the setInv function.
 ##
-## Note the the function 'solve', below, requires that
+## Note that the function 'solve', below, requires that
 ##   the matrix be square. Also if the matrix is not invertible,
 ##   an error will occur.
 
